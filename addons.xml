@@ -1,53 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
-
-
-<addon id="plugin.video.vortechv3"
-       name="Vortech-tv"
-       version="4.0"
-       provider-name="Vortech-Team">
-  <requires>
-    <import addon="xbmc.python" version="2.1.0"/>
-    <import addon="script.module.beautifulsoup" version="3.2.1"/>
-    <import addon="script.module.simple.downloader" version="0.9.4"/>
-    <import addon="script.module.beautifulsoup4" />
-    <import addon="script.module.simple.downloader" version="0.9.4"/>
-    <import addon="script.module.requests" />
-    <import addon="script.module.httplib2" />
-    <import addon="script.module.youtube.dl" optional="true"/>
-    <import addon="plugin.video.youtube" />
-    <import addon="script.module.urlresolver" optional="true"/>
-    <import addon="script.module.simplejson" />    
-  </requires>
-  <extension point="xbmc.python.pluginsource" library="default.py">
-    <provides>video</provides>
-  </extension>
-  <extension point="xbmc.addon.metadata">
-    <summary> Equipo Vortech por y para los Latinos!!!</summary>
-    <description>Vortech es el arduo trabajo de un equipo de desarrolladores enfocados en la comunidad Latina.
-Encontraras la mejor programación de TV por internet, series, películas, musica, documentales, etc
-Tu apoyo es importante para seguir mejorando
-Soporte: 
-https://goo.gl/zHNOFC</description>
- 
-   <platform>all</platform>
-  </extension>
-</addon>
-
-
-<addon id="repository.Vortech-Team" name="Vortech-Team" version="1.0.1" provider-name="wapito">
-	<extension point="xbmc.addon.repository" name="Vortech-tv repository">
-		<info compressed="false"></info>
-		<checksum></checksum>
-		<datadir zip="true"></datadir>
-	</extension>
-	<extension point="xbmc.addon.metadata">
-		<summary>Actualizacion Vortech-Team</summary>
-		<description>Vortech-Team</description>
-		<platform>all</platform>
-	</extension>
-</addon>
-
 <addon id="plugin.stream.vaughnlive.tv"
        name="Vaughn Live"
        version="0.1.8"
@@ -82,7 +34,7 @@ https://goo.gl/zHNOFC</description>
   <requires>
    <import addon="xbmc.python" version="2.1.0"/>
   </requires>
-  <extension 
+  <extension
     point="xbmc.python.pluginsource"
     library="default.py">
    <provides>video</provides>
@@ -92,6 +44,50 @@ https://goo.gl/zHNOFC</description>
     <description>Play videos of different sports streaming sites Updated DMO:27/07/2015 (from HUBBA´s Version)... Corregidos Acestreams, Funcionan los p2pcast.tv siempre que sean 'embebidos' desde otra web, no funciona si el enlace es directo de la web p2pcast.tv. También han sido añadidos los Ultracast.</description>
     <platform>all</platform>
   </extension>
+</addon>
 
+<addon id="plugin.video.vortechv3"
+       name="Vortech-tv"
+       version="4.0"
+       provider-name="Vortech-Team">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.beautifulsoup" version="3.2.1"/>
+    <import addon="script.module.simple.downloader" version="0.9.4"/>
+    <import addon="script.module.beautifulsoup4" />
+    <import addon="script.module.simple.downloader" version="0.9.4"/>
+    <import addon="script.module.requests" />
+    <import addon="script.module.httplib2" />
+    <import addon="script.module.youtube.dl" optional="true"/>
+    <import addon="plugin.video.youtube" />
+    <import addon="script.module.urlresolver" optional="true"/>
+    <import addon="script.module.simplejson" />
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary> Equipo Vortech por y para los Latinos!!!</summary>
+    <description>Vortech es el arduo trabajo de un equipo de desarrolladores enfocados en la comunidad Latina.
+Encontraras la mejor programación de TV por internet, series, películas, musica, documentales, etc
+Tu apoyo es importante para seguir mejorando
+Soporte:
+https://goo.gl/zHNOFC</description>
+
+   <platform>all</platform>
+  </extension>
+</addon>
+
+<addon id="repository.Vortech-Team" name="Vortech-Team" version="1.0.1" provider-name="wapito">
+	<extension point="xbmc.addon.repository" name="tvwin Addon Repository">
+		<info compressed="false"></info>
+		<checksum></checksum>
+		<datadir zip="true"></datadir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary>Actualizacion Vortech-Team</summary>
+		<description>Vortech-Team</description>
+		<platform>all</platform>
+	</extension>
 </addon>
 </addons>

@@ -48,7 +48,7 @@
 
 <addon id="plugin.video.vortechv"
        name="Vortech-tv"
-       version="4.1"
+       version="4.2"
        provider-name="The Fenix Team">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>

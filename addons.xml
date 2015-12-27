@@ -49,7 +49,7 @@
 <addon id="plugin.video.vortechv"
        name="Vortech-tv"
        version="4.1"
-       provider-name="Vortech-Team">
+       provider-name="The Fenix Team">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
     <import addon="script.module.beautifulsoup" version="3.2.1"/>

@@ -46,16 +46,15 @@
   </extension>
 </addon>
 
-<addon id="plugin.video.vortechv"
-       name="Vortech-tv"
+<addon id="plugin.video.vortech"
+       name="Vortech-TV"
        version="4.2"
-       provider-name="The Fenix Team">
+       provider-name="Contenido de Vortech-Team">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
     <import addon="script.module.beautifulsoup" version="3.2.1"/>
     <import addon="script.module.simple.downloader" version="0.9.4"/>
     <import addon="script.module.beautifulsoup4" />
-    <import addon="script.module.simple.downloader" version="0.9.4"/>
     <import addon="script.module.requests" />
     <import addon="script.module.httplib2" />
     <import addon="script.module.youtube.dl" optional="true"/>
@@ -67,14 +66,12 @@
     <provides>video</provides>
   </extension>
   <extension point="xbmc.addon.metadata">
-    <summary> Equipo Vortech por y para los Latinos!!!</summary>
-    <description>Vortech es el arduo trabajo de un equipo de desarrolladores enfocados en la comunidad Latina.
-Encontraras la mejor programación de TV por internet, series, películas, musica, documentales, etc
-Tu apoyo es importante para seguir mejorando
-Soporte:
-https://goo.gl/zHNOFC</description>
+    <summary>Vortech-TV Basado en LiveStreamsPro</summary>
+    <description>
+        Entretenimiento para Tu Vida "Vortech-TV"
 
-   <platform>all</platform>
+    </description>
+    <platform>all</platform>
   </extension>
 </addon>
 
